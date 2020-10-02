@@ -1,0 +1,27 @@
+.tiff-buttonWrapper {
+  text-align: center;
+}
+
+.tiff-loadmorebutton {
+  background: white;
+  text-align: center;
+  color: black;
+  border: 1px solid #ff5722;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.tiff-loadmorebutton p {
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: 400px;
+}
+
+.tiff-loadmorebutton:hover {
+  opacity: 0.8;
+  background: #ff5722;
+  border: 1px solid black;
+}
