@@ -70,7 +70,6 @@ class Home extends Component {
   }
 
   render() {
-    // ES6 Destructuring the state
     const { movies, loading, currentPage, totalPages } = this.state;
 
     return (
