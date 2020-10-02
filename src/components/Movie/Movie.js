@@ -34,6 +34,7 @@ class Movie extends Component {
       if (result.status_code) {
         this.setState({ loading: false });
       } else {
+        //TODO: Display actors for a film
         this.setState({ movie: result }, () => {
           let endpoint = `${API_URL}movie/${movieId}/credits?api_key=${process.env.REACT_APP_APIKEY}`;
           fetch(endpoint)

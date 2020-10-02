@@ -25,6 +25,7 @@ class Home extends Component {
     }
   }
 
+  //TODO: Investigate queryparameters
   curriedEndpoint = type => loadMore => queryTerm =>
     `${API_URL}${type}?api_key=${process.env.REACT_APP_APIKEY}&page=${loadMore
       && this.state.currentPage + 1}&query=${queryTerm}&primary_release_year=2020&sort_by=primary_release_year.asc&popularity.gte=10`;
