@@ -1,3 +1,12 @@
+# Project preview:
+
+## TIFF Movie App Homepage:
+![tiff-movie-app-screenshot-2](https://user-images.githubusercontent.com/19281526/94909832-c3ef7d80-0471-11eb-820d-90f1313950b1.jpg)
+
+## Movie Details page
+![tiff-movie-app-screenshot-1](https://user-images.githubusercontent.com/19281526/94909794-b5a16180-0471-11eb-9133-76eb50f1bf4b.jpg)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
